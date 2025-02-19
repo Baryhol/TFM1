@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería - Digimundo</title>
+  <link rel="stylesheet" href="/ccs/styles.css">
+  <script defer src="/js/proyecto.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__container container d-flex justify-content-between align-items-center">
+      <h1 class="header__brand h3 mb-0">Digimundo</h1>
+      <div class="header__logo-container">
+        <img src="https://preview.redd.it/lti6z5yqm8h31.png?auto=webp&s=5f66878114aba89130d9c66b57c3b32ae84570d1" alt="Logo" class="header__logo">
+      </div>
+      <nav class="header__nav navbar navbar-expand-lg navbar-dark">
+        <button class="header__nav-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="header__nav-collapse collapse navbar-collapse" id="navbarNav">
+          <ul class="header__nav-menu navbar-nav">
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link active" href="home.html">Inicio</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="tcg.html">TCG</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="galeria.html">Galería</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="digipedia.html">Digipedia</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="text-center mb-4">DigiGaleria</h2>
+    <section class="gallery">
+      <div class="gallery__item">
+        <img src="https://i.pinimg.com/564x/f9/f5/12/f9f512b409681aac1e9dcc575a1584b7.jpg" alt="DigiviceFrontiers" class="gallery__img">
+        <h3 class="gallery__title">Digivice Frontiers</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0yTFa3kz5i02GMc2reVROp7Vb8c64vUpjSyCpITlJNLgjSQxcdNoyAlx582BZDZM3QB0&usqp=CAU" alt="Digivice Clasico" class="gallery__img">
+        <h3 class="gallery__title">Digivice Clásico</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://m.media-amazon.com/images/I/81j08KXf72L.jpg" alt="TaiyAgumon" class="gallery__img">
+        <h3 class="gallery__title">Figuras Tai Agumon</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://consolecorp.es/wp-content/uploads/2022/10/model-kit-imperialdramon-digimon-adventure-figure-rise-amplified_1.jpg" alt="Imperialdramon" class="gallery__img">
+        <h3 class="gallery__title">Figura Imperialdramon</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://pbs.twimg.com/media/E63gvURUcAUlBE3.png" alt="Digihuevo" class="gallery__img">
+        <h3 class="gallery__title">Digihuevo</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://pics.filmaffinity.com/digimon_adventure-763330122-large.jpg" alt="PortadaAnime" class="gallery__img">
+        <h3 class="gallery__title">Portada del anime original</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://i.pinimg.com/originals/49/9e/a6/499ea61fa3210e3eb2157005092c91d2.jpg" alt="Emblemas" class="gallery__img">
+        <h3 class="gallery__title">Emblemas</h3>
+      </div>
+      <div class="gallery__item">
+        <img src="https://media.graphassets.com/hjmwwFMZS6trXSIKELxj" alt="Videojuego" class="gallery__img">
+        <h3 class="gallery__title">Portada del último videojuego anunciado</h3>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">© 2025 Digimundo. Todos los derechos reservados.</p>
+    <a href="avisolegal.html" class="footer__link">Aviso Legal</a>
+
+    <section class="newsletter">
+        <h3 class="newsletter__title">Suscríbete</h3>
+        <form class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="Tu correo electrónico" required>
+            <button type="submit" class="newsletter__button">Suscribirse</button>
+        </form>
+        <p class="newsletter__message"></p>
+    </section>
+</footer>
+</body>
+</html>

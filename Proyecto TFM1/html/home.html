@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Digimundo</title>
+  <link rel="stylesheet" href="/ccs/styles.css">
+  <script defer src="/js/proyecto.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container container d-flex justify-content-between align-items-center">
+      <h1 class="header__brand h3 mb-0">Digimundo</h1>
+      <div class="header__logo-container">
+        <img src="https://preview.redd.it/lti6z5yqm8h31.png?auto=webp&s=5f66878114aba89130d9c66b57c3b32ae84570d1" alt="Logo" class="header__logo">
+      </div>
+      <nav class="header__nav navbar navbar-expand-lg navbar-dark">
+        <button class="header__nav-toggler navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="header__nav-collapse collapse navbar-collapse" id="navbarNav">
+          <ul class="header__nav-menu navbar-nav">
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link active" href="home.html">Inicio</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="tcg.html">TCG</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="galeria.html">Galería</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="digipedia.html">Digipedia</a></li>
+            <li class="header__nav-item nav-item"><a class="header__nav-link nav-link" href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="hero__content">
+        <h2 class="hero__title">Bienvenido a Digimundo</h2>
+        <div class="hero__contact-container">
+          <a href="contacto.html" class="hero__button">Contáctanos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <a href="galeria.html" class="features__card">
+        <div class="features__card-content">
+          <h3>DigiGaleria</h3>
+          <p>Una colección completa de imágenes.</p>
+        </div>
+      </a>
+      <a href="tcg.html" class="features__card">
+        <div class="features__card-content">
+          <h3>Digimon TCG</h3>
+          <p>Información sobre el juego de cartas coleccionable.</p>
+        </div>
+      </a>
+      <a href="digipedia.html" class="features__card">
+        <div class="features__card-content">
+          <h3>Digipedia</h3>
+          <p>Todo sobre los Digimon.</p>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__copyright">© 2025 Digimundo. Todos los derechos reservados.</p>
+    <a href="avisolegal.html" class="footer__link">Aviso Legal</a>
+
+    <section class="newsletter">
+        <h3 class="newsletter__title">Suscríbete</h3>
+        <form class="newsletter__form">
+            <input type="email" class="newsletter__input" placeholder="Tu correo electrónico" required>
+            <button type="submit" class="newsletter__button">Suscribirse</button>
+        </form>
+        <p class="newsletter__message"></p>
+    </section>
+</footer>
+</body>
+</html>
